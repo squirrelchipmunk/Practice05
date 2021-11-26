@@ -40,7 +40,7 @@ public class BookShop {
     private static void displayBookInfo(Book[] books) {
     	//코드작성
     	for(int i=0;i<books.length;i++) {
-        	books[i].print(books[i]);
+        	books[i].print();
         }
     	
     }

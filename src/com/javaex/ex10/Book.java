@@ -47,7 +47,7 @@ public class Book {
     	System.out.println(title+" 이(가) 대여됐습니다.");
     }
 	
-    public void print(Book books) {
+    public void print() {
     	System.out.printf("%d 책 제목:%s, 작가:%s 대여 유무:",bookNo, title, author);
     	if(stateCode==1) {
     		System.out.println("재고 있음");
